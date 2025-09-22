@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kimetsucraft",
+	"version": "${version}",
+	"name": "Kimetsu no Craft",
+	"description": "A Mod Recreating the World of Demon Slayer in Minecraft by Awaronoob",
+	"authors": [
+		"Awaronoob"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kimetsucraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.awaronoob.kimetsucraft.KimetsuNoCraft"
+		],
+		"fabric-datagen": [
+			"net.awaronoob.kimetsucraft.KimetsuNoCraftDataGenerator"
+		],
+      "client": [
+        "net.awaronoob.kimetsucraft.KimetsuNoCraftClient"
+      ]
+	},
+	"mixins": [
+		"kimetsucraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
