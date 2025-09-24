@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "nichirin_ingot",
+  "ingredient": {
+    "item": "kimetsucraft:scarlet_ore"
+  },
+  "result": {
+    "id": "kimetsucraft:scarlet_ingot"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "kimetsucraft:scarlet_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "kimetsucraft:scarlet_ingot"
+  }
+}

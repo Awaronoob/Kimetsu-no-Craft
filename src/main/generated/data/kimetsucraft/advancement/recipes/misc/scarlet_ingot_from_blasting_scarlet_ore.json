@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_scarlet_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "kimetsucraft:scarlet_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "kimetsucraft:scarlet_ingot_from_blasting_scarlet_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_scarlet_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "kimetsucraft:scarlet_ingot_from_blasting_scarlet_ore"
+    ]
+  }
+}

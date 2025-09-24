@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "kimetsucraft:block/scarlet_block"
+  }
+}

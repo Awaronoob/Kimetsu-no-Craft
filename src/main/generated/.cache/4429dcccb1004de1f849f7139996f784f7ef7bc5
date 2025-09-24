@@ -1,0 +1,9 @@
+// 1.21.1	2025-09-24T17:58:05.885307779	Kimetsu no Craft/Model Definitions
+ca325ca6062ecd4ebbe194a959c0996e35a0a715 assets/kimetsucraft/models/item/scarlet_block.json
+400b71fcf6346ee79f552c6978c94493a5f52e07 assets/kimetsucraft/models/block/scarlet_block.json
+8974bf37e36aa7b949b8fdf11b3006ba1ab5219b assets/kimetsucraft/models/item/scarlet_ingot.json
+090e04c2b3b28db2297d0ec52fa9b844ec286ba4 assets/kimetsucraft/models/item/raw_scarlet_ingot.json
+236bd6f1c433a3f9a2da4356265bda209f2067aa assets/kimetsucraft/blockstates/scarlet_block.json
+1fbe3f68dc32583cf627b1ea9fea5273e7fbc6b7 assets/kimetsucraft/blockstates/scarlet_ore.json
+d436c4a34ba637f4dc29f85b7ca97317af17fd4c assets/kimetsucraft/models/item/scarlet_ore.json
+e370569e246ec57c9e0a5d0aa4105af558ecc77d assets/kimetsucraft/models/block/scarlet_ore.json

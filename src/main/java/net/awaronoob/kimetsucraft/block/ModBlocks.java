@@ -15,13 +15,14 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     private static final String MID = KimetsuNoCraft.MOD_ID;
 
     public static final Block SCARLET_ORE = registerBlock("scarlet_ore",
             new ExperienceDroppingBlock(
-                    ConstantIntProvider.create(0),
+                    UniformIntProvider.create(1, 3),
                     AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresTool().strength(3.5F, 3.2F)));
 
     public static final Block SCARLET_BLOCK = registerBlock("scarlet_block",

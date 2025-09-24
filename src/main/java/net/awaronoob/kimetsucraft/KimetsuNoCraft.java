@@ -1,5 +1,8 @@
 package net.awaronoob.kimetsucraft;
 
+import net.awaronoob.kimetsucraft.block.ModBlocks;
+import net.awaronoob.kimetsucraft.item.ModItems;
+import net.awaronoob.kimetsucraft.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +15,10 @@ public class KimetsuNoCraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("starting to initialize " + MOD_ID);
+
+        ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
+
+        ModWorldGeneration.generateModWorldGen();
 	}
 }
