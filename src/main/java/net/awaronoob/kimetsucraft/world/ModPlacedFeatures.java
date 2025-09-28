@@ -26,8 +26,8 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, SCARLET_ORE_PLACED_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SCARLET_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(30,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(320)))
+                ModOrePlacement.modifiersWithCount(10,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(60), YOffset.fixed(320)))
                 );
     }
 
